@@ -2,14 +2,14 @@ from aldy import get_result_from_aldy_file, create_openpgx_input_dict, GENES
 
 
 def test_get_result_from_aldy_file_cyp2a6():
-    assert get_result_from_aldy_file("./wdl/aldy/test/CYP2A6.aldy") == (
+    assert get_result_from_aldy_file("./wdl/aldy/test/aldy_results/CYP2A6.aldy") == (
         "CYP2A6",
         "*1/*1",
     )
 
 
 def test_get_result_from_aldy_file_cyp2d6():
-    assert get_result_from_aldy_file("./wdl/aldy/test/CYP2D6.aldy") == (
+    assert get_result_from_aldy_file("./wdl/aldy/test/aldy_results/CYP2D6.aldy") == (
         "CYP2D6",
         "*16/*79",
     )

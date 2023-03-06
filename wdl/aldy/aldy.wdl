@@ -1,23 +1,23 @@
 workflow aldy_wf {
 
-	call aldy
+  call aldy
 
 }
 
 task aldy {
 
-	File bam
+  File bam
   File bai
 
-	command <<<
+  command <<<
     python3 /aldy.py --bam ${bam}
-	>>>
+  >>>
 
-	runtime {
-		docker: "aldy:latest"
+  runtime {
+    docker: "aldy:latest"
   }
 
-	output {
-		File aldy_json = "genotypes.json"
+  output {
+    File aldy_json = "genotypes.json"
   }
 }

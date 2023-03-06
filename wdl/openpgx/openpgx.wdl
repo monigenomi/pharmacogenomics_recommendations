@@ -6,11 +6,11 @@ workflow openpgx_wf {
 
 task openpgx {
 
-	File genotypes_json
+  File genotypes_json
 
   command <<<
-		set -e -o pipefail
-		openpgx ${genotypes_json} -o "recommendations.json"
+    set -e -o pipefail
+    openpgx ${genotypes_json} -o "recommendations.json"
   >>>
 
   runtime {
@@ -18,7 +18,6 @@ task openpgx {
   }
 
   output {
-
-		File recommendations_json = "recommendations.json"
+    File recommendations_json = "recommendations.json"
   }
 }

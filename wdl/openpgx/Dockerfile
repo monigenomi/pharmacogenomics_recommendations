@@ -4,4 +4,4 @@ RUN apt-get update && apt-get install -y python3 pip git
 
 RUN git clone https://github.com/monigenomi/openpgx.git && pip install openpgx/
 
-RUN penpgx update
+RUN openpgx update
