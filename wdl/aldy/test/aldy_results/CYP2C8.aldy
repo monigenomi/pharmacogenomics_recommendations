@@ -1,0 +1,4 @@
+#Sample	Gene	SolutionID	Major	Minor	Copy	Allele	Location	Type	Coverage	Effect	dbSNP	Code	Status
+#Solution 1: *1.004, *1.004
+NA10856	CYP2C8	1	*1/*1	1.004;1.004	0	1.004	96829569	G>A	2	none	rs7912549
+NA10856	CYP2C8	1	*1/*1	1.004;1.004	1	1.004	96829569	G>A	2	none	rs7912549

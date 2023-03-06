@@ -1,0 +1,4 @@
+{
+    "aldy_wf.aldy.bam": "./test/bam/NA10856.bam",
+    "aldy_wf.aldy.bai": "./test/bam/NA10856.bam.bai"
+}

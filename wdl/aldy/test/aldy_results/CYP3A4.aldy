@@ -1,0 +1,5 @@
+#Sample	Gene	SolutionID	Major	Minor	Copy	Allele	Location	Type	Coverage	Effect	dbSNP	Code	Status
+#Solution 1: *1.002, *36.002
+NA10856	CYP3A4	1	*1/*36	1.002;36.002	0	1.002	99382095	C>T	598	none	rs2740574
+NA10856	CYP3A4	1	*1/*36	1.002;36.002	1	36.002	99361465	C>T	386	expression	rs2242480
+NA10856	CYP3A4	1	*1/*36	1.002;36.002	1	36.002	99382095	C>T	598	none	rs2740574

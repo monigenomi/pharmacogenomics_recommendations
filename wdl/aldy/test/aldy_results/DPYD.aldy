@@ -1,0 +1,4 @@
+#Sample	Gene	SolutionID	Major	Minor	Copy	Allele	Location	Type	Coverage	Effect	dbSNP	Code	Status
+#Solution 1: *5, *6
+NA10856	DPYD	1	*5/*6	5;6	0	5	97981394	T>C	337	I543V	rs1801159
+NA10856	DPYD	1	*5/*6	5;6	1	6	97770919	C>T	472	V732I	rs1801160
