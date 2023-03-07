@@ -70,7 +70,7 @@ This step creates csv file with recommendations.
 - Preare files needed for testing (curl and samtools required):
 
 ```
-$ bash wdl/aldy/test/bam/get_bam_test_files.sh
+$ bash ./tests/data/bam/get_bam_test_files.sh
 ```
 
 - install *cromwell*
