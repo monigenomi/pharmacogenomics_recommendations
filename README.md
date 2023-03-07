@@ -4,6 +4,21 @@
 
 Pharmacongeomics recommendations project contains workflow implemented in openWDL language. Workflow creates pharmacogenomics drug recommendations based on genotype calculated from provided input **BAM**.
 
+```mermaid
+graph LR
+
+    style .bam stroke:#333,stroke-width:4px,fill:#6A9CF9
+    style .bai stroke:#333,stroke-width:4px,fill:#C2CD42
+
+    style recommendations.csv stroke:#333,stroke-width:4px,fill:#eba176
+    
+    .bam(.bam) --> Aldy((Taks 1: Aldy)) -->  genotypes.json
+    .bai(.bai) --> Aldy
+
+    genotypes.json --> openpgx((Task 2: OpenPGx)) --> recommendations.json
+    recommendations.json --> report((Task 3: Report)) --> recommendations.csv
+```
+
 ## Execution
 
 1. Prepare input in json file:
@@ -32,8 +47,9 @@ $ cromwell run -i inputs.json ./wdl/pgx_workflow.wdl
 
 The outputs are gene/drug related recommendations based on CPIC, DWP and FDA data. 
 
-Some examples: `./examples/`
-
+Some examples:
+- csv example: `./examples/recommendations.csv`
+- display in jupyter notebook: `./examples/recommendations_presentation.ipynb` here:
 
 ## Steps of the workflow
 
@@ -43,11 +59,25 @@ This step executes **Aldy** tool: https://aldy.readthedocs.io/en/latest/readme.h
 ### 2. OpenPGX
 This step creates gene/drug related recommendations for the person whose genome was inserted into the pipeline as BAM. Step executes **OpenPGx** software: https://github.com/monigenomi/openpgx (@monigenomi, @sheerun).
 
+### 3. Report
+This step creates csv file with recommendations.
 
 ## Testing and development
 
-Preare files needed for testing (curl and samtools required):
+- Preare files needed for testing (curl and samtools required):
 
 ```
 $ bash wdl/aldy/test/bam/get_bam_test_files.sh
+```
+
+- install *cromwell*
+
+- install development requirements:
+```
+$ pip install requirements.txt
+```
+- test using pytest
+
+```
+$ pytest
 ```
