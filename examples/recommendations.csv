@@ -1,0 +1,113 @@
+Drug,Source,Recommendation,Strength,Guideline,Factors
+amitriptyline,dpwg,"There are currently no dosing recommendations for amitriptyline based on CYP2C19 genotype.
+",,https://pharmgkb.org/guidelineAnnotation/PA166184526,{}
+citalopram,cpic,Initiate therapy with recommended starting dose,strong,https://cpicpgx.org/guidelines/guideline-for-selective-serotonin-reuptake-inhibitors-and-cyp2d6-and-cyp2c19/,{'CYP2C19': 'intermediate metabolizer'}
+atorvastatin,cpic,Prescribe desired starting dose and adjust doses based on disease-specific guidelines.,strong,https://cpicpgx.org/guidelines/cpic-guideline-for-statins/,{'SLCO1B1': 'normal function'}
+ibuprofen,cpic,"Initiate therapy with recommended starting dose. In accordance with the prescribing information, use the lowest effective dosage for shortest duration consistent with individual patient treatment goals.",moderate,https://cpicpgx.org/guidelines/cpic-guideline-for-nsaids-based-on-cyp2c9-genotype/,{'CYP2C9': '== 1.50'}
+celecoxib,cpic,"Initiate therapy with recommended starting dose. In accordance with the prescribing information, use the lowest effective dosage for shortest duration consistent with individual patient treatment goals.",moderate,https://cpicpgx.org/guidelines/cpic-guideline-for-nsaids-based-on-cyp2c9-genotype/,{'CYP2C9': '== 1.50'}
+flurbiprofen,cpic,"Initiate therapy with recommended starting dose. In accordance with the prescribing information, use the lowest effective dosage for shortest duration consistent with individual patient treatment goals.",moderate,https://cpicpgx.org/guidelines/cpic-guideline-for-nsaids-based-on-cyp2c9-genotype/,{'CYP2C9': '== 1.50'}
+lornoxicam,cpic,"Initiate therapy with recommended starting dose. In accordance with the prescribing information, use the lowest effective dosage for shortest duration consistent with individual patient treatment goals.",moderate,https://cpicpgx.org/guidelines/cpic-guideline-for-nsaids-based-on-cyp2c9-genotype/,{'CYP2C9': '== 1.50'}
+escitalopram,cpic,Initiate therapy with recommended starting dose,strong,https://cpicpgx.org/guidelines/guideline-for-selective-serotonin-reuptake-inhibitors-and-cyp2d6-and-cyp2c19/,{'CYP2C19': 'intermediate metabolizer'}
+escitalopram,fda,May alter systemic concentrations.,optional,https://www.fda.gov/medical-devices/precision-medicine/table-pharmacogenetic-associations,{'CYP2C19': 'intermediate metabolizer'}
+clopidogrel,cpic,Avoid standard dose (75 mg) clopidogrel if possible. Use prasugrel or ticagrelor at standard dose if no contraindication.,strong,https://cpicpgx.org/guidelines/guideline-for-clopidogrel-and-cyp2c19/,{'CYP2C19': 'intermediate metabolizer'}
+clopidogrel,fda,"Results in lower systemic active metabolite concentrations, lower antiplatelet response, and may result in higher cardiovascular risk. Consider use of another platelet P2Y12 inhibitor.",strong,https://www.fda.gov/medical-devices/precision-medicine/table-pharmacogenetic-associations,{'CYP2C19': 'intermediate metabolizer'}
+doxepin,dpwg,"There are currently no dosing recommendations for doxepin based on CYP2C19 genotype.
+",,https://pharmgkb.org/guidelineAnnotation/PA166184529,{}
+doxepin,fda,Results in higher systemic concentrations.,optional,https://www.fda.gov/medical-devices/precision-medicine/table-pharmacogenetic-associations,{'CYP2C19': 'intermediate metabolizer'}
+dexlansoprazole,cpic,"Initiate standard starting daily dose. For chronic therapy (>12 weeks) and efficacy achieved, consider 50% reduction in daily dose and monitor for continued efficacy.",optional,https://cpicpgx.org/guidelines/cpic-guideline-for-proton-pump-inhibitors-and-cyp2c19/,{'CYP2C19': 'intermediate metabolizer'}
+dexlansoprazole,fda,Results in higher systemic concentrations.,optional,https://www.fda.gov/medical-devices/precision-medicine/table-pharmacogenetic-associations,{'CYP2C19': 'intermediate metabolizer'}
+fluvoxamine,dpwg,"There are currently no dosing recommendations for fluvoxamine based on CYP2D6 genotype.
+",,https://pharmgkb.org/guidelineAnnotation/PA166182813,{}
+fluvastatin,cpic,"Prescribe ≤40mg per day as a starting dose and adjust doses of fluvastatin based on disease-specific guidelines. If dose >40mg needed for desired efficacy, consider an alternative statin or combination therapy (i.e., fluvastatin plus non-statin guideline directed medical therapy) (PMID: 30423391).",moderate,https://cpicpgx.org/guidelines/cpic-guideline-for-statins/,"{'CYP2C9': '== 1.50', 'SLCO1B1': 'normal function'}"
+fluvastatin,dpwg,"There are currently no recommendations for fluvastatin dosing based on SLCO1B1 genotypes.
+",,https://pharmgkb.org/guidelineAnnotation/PA166182845,{}
+efavirenz,cpic,Initiate efavirenz with standard dosing (600 mg/day),strong,https://cpicpgx.org/guidelines/cpic-guideline-for-efavirenz-based-on-cyp2b6-genotype/,{'CYP2B6': 'normal metabolizer'}
+meloxicam,cpic,"Initiate therapy with recommended starting dose. In accordance with the meloxicam prescribing information, use the lowest effective dosage for shortest duration consistent with individual patient treatment goals.",moderate,https://cpicpgx.org/guidelines/cpic-guideline-for-nsaids-based-on-cyp2c9-genotype/,{'CYP2C9': '== 1.50'}
+lovastatin,cpic,Prescribe desired starting dose and adjust doses based on disease-specific guidelines.,strong,https://cpicpgx.org/guidelines/cpic-guideline-for-statins/,{'SLCO1B1': 'normal function'}
+omeprazole,cpic,"Initiate standard starting daily dose. For chronic therapy (>12 weeks) and efficacy achieved, consider 50% reduction in daily dose and monitor for continued efficacy.",optional,https://cpicpgx.org/guidelines/cpic-guideline-for-proton-pump-inhibitors-and-cyp2c19/,{'CYP2C19': 'intermediate metabolizer'}
+omeprazole,fda,Results in higher systemic concentrations.,optional,https://www.fda.gov/medical-devices/precision-medicine/table-pharmacogenetic-associations,{'CYP2C19': 'intermediate metabolizer'}
+lansoprazole,cpic,"Initiate standard starting daily dose. For chronic therapy (>12 weeks) and efficacy achieved, consider 50% reduction in daily dose and monitor for continued efficacy.",optional,https://cpicpgx.org/guidelines/cpic-guideline-for-proton-pump-inhibitors-and-cyp2c19/,{'CYP2C19': 'intermediate metabolizer'}
+pantoprazole,cpic,"Initiate standard starting daily dose. For chronic therapy (>12 weeks) and efficacy achieved, consider 50% reduction in daily dose and monitor for continued efficacy.",optional,https://cpicpgx.org/guidelines/cpic-guideline-for-proton-pump-inhibitors-and-cyp2c19/,{'CYP2C19': 'intermediate metabolizer'}
+piroxicam,cpic,"Initiate therapy with recommended starting dose. In accordance with the prescribing information, use the lowest effective dosage for shortest duration consistent with individual patient treatment goals.",moderate,https://cpicpgx.org/guidelines/cpic-guideline-for-nsaids-based-on-cyp2c9-genotype/,{'CYP2C9': '== 1.50'}
+piroxicam,fda,Results in higher systemic concentrations. Consider reducing dosage in poor metabolizers.,strong,https://www.fda.gov/medical-devices/precision-medicine/table-pharmacogenetic-associations,{'CYP2C9': 'intermediate metabolizer'}
+pitavastatin,cpic,Prescribe desired starting dose and adjust doses based on disease-specific guidelines.,strong,https://cpicpgx.org/guidelines/cpic-guideline-for-statins/,{'SLCO1B1': 'normal function'}
+sertraline,cpic,Initiate therapy with recommended starting dose,strong,https://cpicpgx.org/guidelines/guideline-for-selective-serotonin-reuptake-inhibitors-and-cyp2d6-and-cyp2c19/,{'CYP2C19': 'intermediate metabolizer'}
+sertraline,dpwg,"There are currently no dosing recommendations for sertraline based on CYP2D6 genotypes.
+",,https://pharmgkb.org/guidelineAnnotation/PA166182821,{}
+pravastatin,cpic,Prescribe desired starting dose and adjust doses based on disease-specific guidelines.,strong,https://cpicpgx.org/guidelines/cpic-guideline-for-statins/,{'SLCO1B1': 'normal function'}
+simvastatin,cpic,Prescribe desired starting dose and adjust doses based on disease-specific guidelines.,strong,https://cpicpgx.org/guidelines/cpic-guideline-for-statins/,{'SLCO1B1': 'normal function'}
+tacrolimus,cpic,Increase starting dose 1.5 to 2 times recommended starting dose. Total starting dose should not exceed 0.3 mg/kg/day. Use therapeutic drug monitoring to guide dose adjustments.,strong,https://cpicpgx.org/guidelines/guideline-for-tacrolimus-and-cyp3a5/,{'CYP3A5': 'intermediate metabolizer'}
+tacrolimus,fda,"Results in lower systemic concentrations, lower probability of achieving target concentrations and may result in higher rejection risk. Measure drug concentrations and adjust dosage based on trough whole blood tacrolimus concentrations.",strong,https://www.fda.gov/medical-devices/precision-medicine/table-pharmacogenetic-associations,{'CYP3A5': 'intermediate metabolizer'}
+tenoxicam,cpic,"Initiate therapy with recommended starting dose. In accordance with the prescribing information, use the lowest effective dosage for shortest duration consistent with individual patient treatment goals.",moderate,https://cpicpgx.org/guidelines/cpic-guideline-for-nsaids-based-on-cyp2c9-genotype/,{'CYP2C9': '== 1.50'}
+voriconazole,cpic,Initiate therapy with recommended standard of care dosing,moderate,https://cpicpgx.org/guidelines/guideline-for-voriconazole-and-cyp2c19/,{'CYP2C19': 'intermediate metabolizer'}
+voriconazole,fda,Results in higher systemic concentrations and may result in higher adverse reaction risk.,moderate,https://www.fda.gov/medical-devices/precision-medicine/table-pharmacogenetic-associations,{'CYP2C19': 'intermediate metabolizer'}
+siponimod,fda,Results in higher systemic concentrations. Adjust dosage based on genotype. Do not use in patients with CYP2C9 *3/*3 genotype. Refer to FDA labeling for specific dosing recommendations.,strong,https://www.fda.gov/medical-devices/precision-medicine/table-pharmacogenetic-associations,{'CYP2C9': 'intermediate metabolizer'}
+oxycodone,dpwg,"There are currently no dosing recommendations for oxycodone based on CYP2D6 genotypes.
+",,https://pharmgkb.org/guidelineAnnotation/PA166104973,{}
+sotalol,dpwg,"There are currently no dosing recommendations for sotalol based on CYP2D6 genotype.
+",,https://pharmgkb.org/guidelineAnnotation/PA166182855,{}
+flupenthixol,dpwg,"There are currently no dosing recommendations for flupenthixol based on CYP2D6 genotype.
+",,https://pharmgkb.org/guidelineAnnotation/PA166104981,{}
+tolbutamide,dpwg,"There are currently no dosing recommendations for tolbutamide based on CYP2C9 genotype.
+",,https://pharmgkb.org/guidelineAnnotation/PA166104986,{}
+gefitinib,dpwg,"There are currently no dosing recommendations for gefitinib based on CYP2D6 genotype.
+",,https://pharmgkb.org/guidelineAnnotation/PA166182809,{}
+atenolol,dpwg,"There are currently no dosing recommendations for atenolol based on CYP2D6 genotype.
+",,https://pharmgkb.org/guidelineAnnotation/PA166182822,{}
+esomeprazole,dpwg,"No action is needed for this gene-drug interaction.
+",,https://pharmgkb.org/guidelineAnnotation/PA166104931,{}
+olanzapine,dpwg,"There are currently no dosing recommendations for olanzapine based on CYP2D6 genotype.
+",,https://pharmgkb.org/guidelineAnnotation/PA166104946,{}
+phenprocoumon,dpwg,"There are currently no recommendations for phenprocoumon dosing based on CYP2C9 genotypes.
+",,https://pharmgkb.org/guidelineAnnotation/PA166105004,{}
+bisoprolol,dpwg,"There are currently no dosing recommendations for bisoprolol based on CYP2D6 genotype.
+",,https://pharmgkb.org/guidelineAnnotation/PA166182816,{}
+quinidine,dpwg,"There are currently no dosing recommendations for quinidine based on CYP2D6 genotypes.
+",,https://pharmgkb.org/guidelineAnnotation/PA166182803,{}
+rabeprazole,dpwg,"No action is needed for this gene-drug interaction.
+",,https://pharmgkb.org/guidelineAnnotation/PA166104985,{}
+glimepiride,dpwg,"There are currently no dosing recommendations for glimepiride based on CYP2C9 genotype.
+",,https://pharmgkb.org/guidelineAnnotation/PA166104978,{}
+disopyramide,dpwg,"There are currently no dosing recommendations for disopyramide based on CYP2D6 genotype.
+",,https://pharmgkb.org/guidelineAnnotation/PA166182811,{}
+ribavirin,dpwg,"Although there is some evidence for lower treatment response in HLA-B*44 negative patients,  there are no dosing recommendations for ribavirin at this time.
+",,https://pharmgkb.org/guidelineAnnotation/PA166104947,{}
+prasugrel,dpwg,"There are currently no dosing recommendations for prasugrel based on CYP2C19 genotypes.
+",,https://pharmgkb.org/guidelineAnnotation/PA166182820,{}
+citalopram escitalopram,dpwg,"There are currently no dosing recommendations for citalopram/escitalopram based on CYP2D6 genotype.
+",,https://pharmgkb.org/guidelineAnnotation/PA166182817,{}
+amiodarone,dpwg,"There are currently no dosing recommendations for amiodarone based on CYP2D6 genotype.
+",,https://pharmgkb.org/guidelineAnnotation/PA166182815,{}
+gliclazide,dpwg,"There are currently no dosing recommendations for gliclazide based on CYP2C9 genotype.
+",,https://pharmgkb.org/guidelineAnnotation/PA166104971,{}
+duloxetine,dpwg,"There are currently no dosing recommendations for duloxetine based on CYP2D6 genotype.
+",,https://pharmgkb.org/guidelineAnnotation/PA166104942,{}
+moclobemide,dpwg,"No action is needed for this gene-drug interaction.
+",,https://pharmgkb.org/guidelineAnnotation/PA166104941,{}
+glibenclamide,dpwg,"There are currently no dosing recommendations for glibenclamide based on CYP2C9 genotype.
+",,https://pharmgkb.org/guidelineAnnotation/PA166104953,{}
+quetiapine,dpwg,"There are currently no dosing recommendations for quetiapine based on CYP2D6 genotype.
+",,https://pharmgkb.org/guidelineAnnotation/PA166182854,{}
+acenocoumarol,dpwg,"There are currently no recommendations for acenocoumarol dosing based on CYP2C9 genotypes.
+",,https://pharmgkb.org/guidelineAnnotation/PA166104979,{}
+fluphenazine,dpwg,"There are currently no dosing recommendations for fluphenazine based on CYP2D6 genotype.
+",,https://pharmgkb.org/guidelineAnnotation/PA166182812,{}
+mirtazapine,dpwg,"There are currently no dosing recommendations for mirtazapine based on CYP2C19 genotypes.
+",,https://pharmgkb.org/guidelineAnnotation/PA166182805,{}
+fluoxetine,dpwg,"There are currently no dosing recommendations for fluoxetine based on CYP2D6 genotype.
+",,https://pharmgkb.org/guidelineAnnotation/PA166182852,{}
+ticagrelor,dpwg,"There are currently no dosing recommendations for ticagrelor based on CYP2C19 genotypes.
+",,https://pharmgkb.org/guidelineAnnotation/PA166182807,{}
+warfarin,fda,"Alters systemic concentrations and dosage requirements. Select initial dosage, taking into account clinical and genetic factors. Monitor and adjust dosages based on INR.",strong,https://www.fda.gov/medical-devices/precision-medicine/table-pharmacogenetic-associations,{'CYP2C9': 'intermediate metabolizer'}
+methylphenidate,dpwg,"There are currently no dosing recommendations for methylphenidate based on CYP2D6 genotype.
+",,https://pharmgkb.org/guidelineAnnotation/PA166182808,{}
+clozapine,dpwg,"There are currently no dosing recommendations for clozapine based on CYP2D6 genotypes.
+",,https://pharmgkb.org/guidelineAnnotation/PA166104935,{}
+carvedilol,dpwg,"There are currently no dosing recommendations for carvedilol based on CYP2D6 genotype.
+",,https://pharmgkb.org/guidelineAnnotation/PA166104974,{}
+clonidine,dpwg,"There are currently no dosing recommendations for clonidine based on CYP2D6 genotype.
+",,https://pharmgkb.org/guidelineAnnotation/PA166182818,{}
+brivaracetam,fda,Results in higher systemic concentrations and higher adverse reaction risk. Consider dosage reductions in poor metabolizers.,strong,https://www.fda.gov/medical-devices/precision-medicine/table-pharmacogenetic-associations,{'CYP2C19': 'intermediate metabolizer'}
+clobazam,fda,Results in higher systemic active metabolite concentrations. Poor metabolism results in higher adverse reaction risk. Dosage adjustment is recommended. Refer to FDA labeling for specific dosing recommendations.,strong,https://www.fda.gov/medical-devices/precision-medicine/table-pharmacogenetic-associations,{'CYP2C19': 'intermediate metabolizer'}
+dronabinol,fda,May result in higher systemic concentrations and higher adverse reaction risk. Monitor for adverse reactions.,strong,https://www.fda.gov/medical-devices/precision-medicine/table-pharmacogenetic-associations,{'CYP2C9': 'intermediate metabolizer'}
+avatrombopag,fda,Results in higher systemic concentrations.,optional,https://www.fda.gov/medical-devices/precision-medicine/table-pharmacogenetic-associations,{'CYP2C9': 'intermediate metabolizer'}
