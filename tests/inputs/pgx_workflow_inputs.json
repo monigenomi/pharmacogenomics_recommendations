@@ -1,0 +1,4 @@
+{
+    "pgx_workflow.bam": "./tests/data/bam/NA10856.bam",
+    "pgx_workflow.bai": "./tests/data/bam/NA10856.bam.bai"
+}

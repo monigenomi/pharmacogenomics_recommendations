@@ -1,0 +1,32 @@
+- name: openpgx.wdl basic
+  command: cromwell run -i ./tests/inputs/openpgx_inputs.json -o ./tests/options.json wdl/openpgx/openpgx.wdl
+  files:
+    - path: test-output/recommendations.json
+  stdout:
+    contains:
+      - "workflow finished with status 'Succeeded'"
+
+- name: report.wdl basic
+  command: cromwell run -i ./tests/inputs/report_inputs.json -o ./tests/options.json wdl/report/report.wdl
+  files:
+    - path: test-output/recommendations.csv
+  stdout:
+    contains:
+      - "workflow finished with status 'Succeeded'"
+
+- name: aldy.wdl basic
+  command: cromwell run -i ./tests/inputs/aldy_inputs.json -o ./tests/options.json wdl/aldy/aldy.wdl
+  files:
+    - path: test-output/genotypes.json
+  stdout:
+    contains:
+      - "workflow finished with status 'Succeeded'"
+
+- name: pgx_workglow.wdl
+  command: cromwell run -i ./tests/inputs/pgx_workflow_inputs.json -o ./tests/options.json wdl/pgx_workflow.wdl
+  files:
+    - path: test-output/recommendations.csv
+    - path: test-output/recommendations.json
+  stdout:
+    contains:
+      - "workflow finished with status 'Succeeded'"
