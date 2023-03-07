@@ -2,21 +2,21 @@ from aldy import get_result_from_aldy_file, create_openpgx_input_dict, GENES
 
 
 def test_get_result_from_aldy_file_cyp2a6():
-    assert get_result_from_aldy_file("./wdl/aldy/test/aldy_results/CYP2A6.aldy") == (
+    assert get_result_from_aldy_file("./wdl/aldy/test_data/aldy_results/CYP2A6.aldy") == (
         "CYP2A6",
         "*1/*1",
     )
 
 
 def test_get_result_from_aldy_file_cyp2d6():
-    assert get_result_from_aldy_file("./wdl/aldy/test/aldy_results/CYP2D6.aldy") == (
+    assert get_result_from_aldy_file("./wdl/aldy/test_data/aldy_results/CYP2D6.aldy") == (
         "CYP2D6",
         "*16/*79",
     )
 
 
 def test_create_openpgx_input_dict():
-    aldy_files = [f"./wdl/aldy/test/aldy_results/{gene}.aldy" for gene in GENES]
+    aldy_files = [f"./wdl/aldy/test_data/aldy_results/{gene}.aldy" for gene in GENES]
     assert create_openpgx_input_dict(aldy_files) == {
         "CYP1A1": "*1/*1",
         "CYP1A2": "*1/*1",

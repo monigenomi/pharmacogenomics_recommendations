@@ -14,7 +14,7 @@ task openpgx {
   >>>
 
   runtime {
-    docker: "openpgx:latest"
+    docker: "monigenomi/openpgx:1.0.0"
   }
 
   output {

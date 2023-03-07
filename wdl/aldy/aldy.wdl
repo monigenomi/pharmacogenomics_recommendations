@@ -14,7 +14,7 @@ task aldy {
   >>>
 
   runtime {
-    docker: "aldy:latest"
+    docker: "monigenomi/aldy:1.0.0"
   }
 
   output {

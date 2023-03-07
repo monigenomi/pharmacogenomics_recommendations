@@ -7,7 +7,7 @@ def load_json(json_path: str) -> dict:
     with open(json_path) as f:
         return json.load(f)
 
-    
+
 def create_array_of_arrays(recommendations):
     csv_header = [["Drug", "Source", "Recommendation", "Strength", "Guideline", "Factors"]]
     for drugname, sources in recommendations.items():
@@ -42,4 +42,3 @@ def main():
 
 if __name__ == "__main__":
     main()
-

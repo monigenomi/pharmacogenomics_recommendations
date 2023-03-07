@@ -6,23 +6,18 @@ import os
 
 
 def run_aldy_for_gene(gene: str, bam_path: str) -> str:
-    try:
-        run_aldy = subprocess.run([
-            "aldy",
-            "genotype",
-            "-p", "illumina",
-            "-g", gene,
-            "-o", f"{gene}.aldy",
-            bam_path          
-        ], check=True, capture_output=True)
+    run_aldy = subprocess.run([
+        "aldy",
+        "genotype",
+        "-p", "illumina",
+        "-g", gene,
+        "-o", f"{gene}.aldy",
+        bam_path          
+    ], check=True, capture_output=True)
 
-        print(run_aldy.stdout.decode())
-        print(run_aldy.stderr.decode())
-        return f"{gene}.aldy"
-    except subprocess.CalledProcessError as e:
-        print(e.stderr.decode())
-    pass
-
+    print(run_aldy.stdout.decode())
+    print(run_aldy.stderr.decode())
+    return f"{gene}.aldy"
 
 GENES = [
       'CYP1A1', 'CYP1A2', 'CYP2A13', 'CYP2A6', 'CYP2B6', 'CYP2C19', 'CYP2C8',
@@ -76,7 +71,7 @@ def main():
     parser.add_argument("-o", "--output")
     args = vars(parser.parse_args())
 
-    # 1. First run aldy genotype in look for all implemented genes and write results to separated files <{gene}.aldy>
+    # 1. First run aldy genotype and look for all implemented genes and write results to separated files <{gene}.aldy>
     aldy_files = genotype_genes(args["bam"])
 
     # 2. Create dictionary with all genes and genotypes
