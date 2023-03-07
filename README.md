@@ -49,12 +49,15 @@ The outputs are gene/drug related recommendations based on CPIC, DWP and FDA dat
 
 Some examples:
 - csv example: `./examples/recommendations.csv`
-- display in jupyter notebook: `./examples/recommendations_presentation.ipynb` here:
+- display in jupyter notebook: `./examples/recommendations_presentation.ipynb`
 
 ## Steps of the workflow
 
 ### 1. Aldy
-This step executes **Aldy** tool: https://aldy.readthedocs.io/en/latest/readme.html#. Aldy calls genotypes of many pharmacogenes and reports them in star-allele nomenclature. Scientific csv reports from genotyping are converted to json, choosing first solution/result provided by Aldy for each specific gene. 
+This step executes **Aldy** tool: https://aldy.readthedocs.io/en/latest/readme.html#,
+*© 2016-2022 Aldy Authors, Indiana University Bloomington. All rights reserved*
+
+Aldy calls genotypes of many pharmacogenes and reports them in star-allele nomenclature. Scientific csv reports from genotyping are converted to json, choosing first solution/result provided by Aldy for each specific gene. 
 
 ### 2. OpenPGX
 This step creates gene/drug related recommendations for the person whose genome was inserted into the pipeline as BAM. Step executes **OpenPGx** software: https://github.com/monigenomi/openpgx (@monigenomi, @sheerun).
@@ -81,3 +84,12 @@ $ pip install requirements.txt
 ```
 $ pytest
 ```
+
+## Licensing
+For academic and non-commercial as a reason of **Aldy license**:
+
+© 2016-2022 Aldy Authors, Indiana University Bloomington. All rights reserved.
+Aldy software implemented in the pipeline can be freely used in academic and non-commercial environments.
+
+
+
